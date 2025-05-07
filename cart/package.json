@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "axios": "^1.9.0",
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "crypt": "^0.0.2",
+    "crypto": "^1.0.1",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
+  },
+  "scripts": {
+    "start": "nodemon index.js"
+  }
+}

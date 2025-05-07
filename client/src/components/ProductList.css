@@ -1,0 +1,59 @@
+.products-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin-inline: 10%;
+    margin-bottom: 35px;
+}
+
+.product {
+    text-align: left;
+    margin: auto;
+    width: fit-content;
+    background-color: #C5742C;
+    border-radius: 5%;
+    min-width: 25px;
+    font-size: 16px;
+    border: 3px #813D18 solid;
+    padding: 0.25em 0.5em;
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+}
+
+.product > div {
+    background-color: #fff;
+    color: #813D18;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    min-width: 25px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    border: 3px #813D18 solid;
+    padding-left: 15px;
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+    user-select: none;
+    resize: none;
+}
+
+.product p {
+    color: #000
+}
+
+.product input {
+    width: fit-content;
+    max-width: 35px;
+    color: #813D18;
+    margin-right: 10px;
+    border: 3px #813D18 solid;
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+    font-size: 16px;
+}
+
+.product button {
+    margin-bottom: 10px;
+}
+
+.cart-button {
+    font-size: 22px;
+    margin-bottom: 30px;
+}
